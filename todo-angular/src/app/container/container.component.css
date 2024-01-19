@@ -1,0 +1,48 @@
+.left-div{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: auto;
+    width: 20%;
+    margin: 2%;
+    border-radius: 10px;
+    border-color: black;
+    flex:2;
+}
+
+.header{
+    margin: auto;
+    font-size: larger;
+    flex: 1;
+    background-color: green;
+}
+
+.header > text {
+    size:auto;
+    margin: auto;
+}
+
+.create-form{
+    background-color: gold;
+    flex: 9;
+    width: 90%;
+    margin:auto;
+
+}
+
+.right-div{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    flex:8;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: blue;
+}
