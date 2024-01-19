@@ -15,11 +15,22 @@
     font-size: larger;
     flex: 1;
     background-color: green;
+    display: flex;
 }
 
-.header > text {
-    size:auto;
+.header > p {
+    flex: 1;
+    display: flex;
+    size: auto;
+    height: fit-content;
+    width: fit-content;
     margin: auto;
+}
+
+.form-item{
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
 }
 
 .create-form{
@@ -27,7 +38,6 @@
     flex: 9;
     width: 90%;
     margin:auto;
-
 }
 
 .right-div{
